@@ -9,7 +9,7 @@
     width: 1140px;
     margin: auto;
     margin-top: 20px;
-    height: 48px;
+    /* height: 48px; */
 }
 /* .container2{
     max-width: 1128px;
@@ -124,10 +124,11 @@ height: 378px;
 .categories{
     margin: 64px 0px;
 }
-.categories .category-card{
-    margin: 25px;
-    padding: 40px;
-}
+
+/* .categories .category-card{
+    margin: 50px auto;
+
+} */
 .category-card{
     display: flex;
    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
@@ -165,9 +166,14 @@ height: 378px;
 
    
 }
+.shoes-section-container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .shoes-section-title{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .shoes-section-title h2{
     font-weight: bold;
@@ -180,7 +186,7 @@ height: 378px;
 .shoes-card-container{
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 20px;
 
     
 }
@@ -188,8 +194,7 @@ height: 378px;
     background-color:white;
     border-radius: 10px;
     text-align: center;
-    
-    padding: 25px;
+    padding: 10px;
 }
 .shoe-price{
     display: block;
@@ -198,7 +203,7 @@ height: 378px;
     margin-bottom: 12px;
 }
 .shoe-card img{
-width: 336px;
+width: 330px;
 height: 202px;
 }
 .shoe-card .banner-button{
