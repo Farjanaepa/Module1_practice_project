@@ -89,7 +89,8 @@ padding: 25px 38px;
     justify-content: space-between;
     gap:5px;
     padding: 68px 46px;
-    /* height: 455px; */
+    border-radius: 20px;
+    height: 455px;
 }
 
 .para-part{
@@ -120,6 +121,9 @@ height: 378px;
 }
 
 /* category */
+main p{
+    color: rgb(80, 79, 79);
+}
 
 .categories{
     margin: 64px 0px;
@@ -163,6 +167,7 @@ height: 378px;
 /* shoes section */
 .shoes-section{
    background: rgb(244, 244, 244);
+   padding: 45px 0px;
 
    
 }
@@ -216,4 +221,47 @@ height: 202px;
     width: 290px;
 height: 290px;
 
+}
+
+/* footer */
+.footer-container{
+    width: 1212px;
+    background: rgb(255, 242, 241);
+    height: 455px;
+    margin: 70px auto;
+}
+.footer-section{
+    width: 683px;
+    height: 162px;
+    padding: 125px 20px;
+    text-align: center;
+    margin: auto;
+}
+.footer-section h2{
+    display: block;
+}
+.footer-section p{
+    color: rgb(92, 91, 91);
+}
+.button-parent .button-box {
+    font-weight: bold;
+    font-size: 20px;
+  
+}
+.input-box{
+    width: 683px;
+    height: 73px;
+    padding: 0px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.button-parent{
+    position: relative;
+}
+.button-box{
+    position: absolute;
+    height: 70px;
+    top: -6px;
+    right: -39px;
+   
 }
